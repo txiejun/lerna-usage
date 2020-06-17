@@ -1,0 +1,37 @@
+{
+  "name": "feu-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "app主程序",
+  "keywords": [
+    "app"
+  ],
+  "author": "txiejun <txiejun@126.com>",
+  "homepage": "https://github.com/txiejun/lerna-usage#readme",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txiejun/lerna-usage.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/txiejun/lerna-usage/issues"
+  },
+  "dependencies": {
+    "feu-tools": "^0.0.0",
+    "feu-ui": "^0.0.0"
+  }
+}
