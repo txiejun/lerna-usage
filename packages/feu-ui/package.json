@@ -1,6 +1,6 @@
 {
   "name": "feu-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ui模拟库",
   "keywords": [
     "ui"
@@ -33,6 +33,6 @@
     "chalk": "^4.1.0"
   },
   "dependencies": {
-    "feu-tools": "^0.0.0"
+    "feu-tools": "^0.1.0"
   }
 }
