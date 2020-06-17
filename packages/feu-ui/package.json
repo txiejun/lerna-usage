@@ -34,5 +34,6 @@
   },
   "dependencies": {
     "feu-tools": "^0.1.0"
-  }
+  },
+  "gitHead": "7478dfea708fe5a44a9e159be5a473ca02165dd4"
 }
