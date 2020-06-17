@@ -6,7 +6,7 @@
   "npmClient": "npm",
   "command": {
     "publish": {
-      "message": "Publish",
+      "message": "Publish-%v",
       "registry": "https://registry.npmjs.org/"
     }
   }
