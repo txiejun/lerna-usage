@@ -291,12 +291,12 @@ $ lerna import ~/Users/Product --dest=utilities
 ### lerna add
 
 将本地或者远程的包作为依赖项添加到当前的packages中，每次只能添加一个包。  
-**案例1：**添加远程依赖包"chalk"到`feu-ui`的开发依赖库中，执行如下命令：  
+**案例1：** 添加远程依赖包"chalk"到`feu-ui`的开发依赖库中，执行如下命令：  
 ```bash
 $ lerna add chalk --scope=feu-ui --dev
 ```
 
-**案例2：**添加本地包`feu-tools`到`feu-app`的依赖库中，执行如下命令：  
+**案例2：** 添加本地包`feu-tools`到`feu-app`的依赖库中，执行如下命令：  
 ```bash
 $ lerna add feu-tools --scope=feu-app
 ```
@@ -313,9 +313,9 @@ $ lerna create feu-tools
 ### lerna clean
 
 删除所有包下面的`node_modules`目录，也可以删除指定包下面的`node_modules`。  
-**注意：**不会删除`package.json`里面的依赖项定义，也不会删除root目录的`node_modules`。  
+**注意：** 不会删除`package.json`里面的依赖项定义，也不会删除root目录的`node_modules`。  
 
-**案例1:**只删除`feu-ui`包下面的`node_modules`目录  
+**案例1:** 只删除`feu-ui`包下面的`node_modules`目录  
 ```bash
 $ lerna clean --scope=feu-ui
 ```
@@ -336,7 +336,7 @@ $ lerna clean --scope=feu-ui
 
 在包含该脚本命令的每个package内部执行`npm script`脚本命令,也可以指定在某个package下执行。  
 
-**案例1：**在`feu-ui`包中执行`build`脚本命令
+**案例1：** 在`feu-ui`包中执行`build`脚本命令
 ```bash
 $ lerna run build --scope=feu-ui
 ```
@@ -373,7 +373,7 @@ $ lerna exec -- npm view \$LERNA_PACKAGE_NAME
 发布需要发布的包，此命令可以既包含`lerna version`的工作，也可以单纯的只做发布操作。
 
 根据不同的管理模式行为会不太一样。参考`管理模式`章节。  
-**注意：**不会发布标记为私有（`package.json`中`private=true`）的包。
+**注意：** 不会发布标记为私有（`package.json`中`private=true`）的包。
 
 #### `lerna publish`
 发布自上次发布以来有更新的包，包含了`lerna version`的工作。
