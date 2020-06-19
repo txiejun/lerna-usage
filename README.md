@@ -1,4 +1,4 @@
-# lerna多项目管理实践
+# lerna多packages管理实践
 
 ## 背景
 
