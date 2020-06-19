@@ -434,3 +434,5 @@ lerna的`lerna version`和changelog生成都依赖于Conventional Commits。需�
 - https://juejin.im/post/5d0b3f8c6fb9a07ec07fc5d0
 
 
+## 演示项目
+[演示项目下载地址](https://github.com/txiejun/lerna-usage)
