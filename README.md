@@ -39,7 +39,7 @@ lerna-usage/
 ```
 
 lerna的作用是，把多个项目或者模块拆分为多个packages放入一个git仓库进行管理。  
-- 通过命令`lerna boostrap`自动解决packages之间的依赖关系，对于packages内部的依赖会直接采用symlink的方式关联过去。
+- 通过命令`lerna bootstrap`自动解决packages之间的依赖关系，对于packages内部的依赖会直接采用symlink的方式关联过去。
 - 通过命令`lerna publish`依赖`git`检测文件改动，自动发布，管理版本号。
 - 根据git 提交记录，自动生成changelog
 
@@ -254,7 +254,7 @@ $ lerna publish
 ```
 
 此处根据我们选择的管理模式不同，提示问题可能有所不同。由于我们选择的是固定模式，所有packages的版本号都会根据`lerna.json`中的版本号进行更新。  
-询问版本号界面如下： 
+询问版本号界面如下：  
 ![询问版本号](./assets/lerna-publish3.jpg) 
 
 选择了版本号的下一步界面如下：  
